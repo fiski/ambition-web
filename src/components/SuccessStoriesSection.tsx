@@ -35,17 +35,14 @@ function CaseCard({
 
 export default function SuccessStoriesSection() {
   return (
-    <section className="flex flex-col items-start pb-20 pt-[117px] relative w-full">
+    <section className="flex flex-col items-start pb-20 pt-[197px] -mt-20 relative w-full z-10">
       {/* Section heading overlay */}
       <div
         className="absolute flex flex-col font-extrabold items-center justify-center left-0 text-lagoon text-center uppercase whitespace-nowrap pointer-events-none z-10"
-        style={{ top: "66.97px", mixBlendMode: "plus-lighter" }}
+        style={{ top: "100px", mixBlendMode: "plus-lighter" }}
       >
-        <p className="leading-normal" style={{ fontSize: "78.663px" }}>
-          success{" "}
-        </p>
-        <p className="leading-normal" style={{ fontSize: "74.467px" }}>
-          stories
+        <p style={{ fontSize: "78.663px", lineHeight: "90%" }}>
+          success<br />stories
         </p>
       </div>
 
